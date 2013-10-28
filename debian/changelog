@@ -1,0 +1,5 @@
+wireshark-gmetric (0.1-0ppa1) precise; urgency=low
+
+  * Initial release.
+
+ -- Michael Jeanson <mjeanson@gmail.com>  Mon, 28 Oct 2013 11:10:26 -0400

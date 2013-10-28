@@ -1,0 +1,17 @@
+Source: wireshark-gmetric
+Section: net
+Priority: optional
+Maintainer: Michael Jeanson <mjeanson@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50), libglib2.0-dev (>= 2.4.0), libwireshark-dev, cmake (>= 2.6.0), libwiretap-dev
+Standards-Version: 3.8.4
+Homepage: https://github.com/mjeanson/wireshark-gmetric
+
+Package: wireshark-gmetric
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libwireshark1
+Description: gmetric plugin for Wireshark
+ This is a gmetric plugin for Wireshark and libwireshark. It allows to sniff
+ gmetric network traffic and decode it
+
+
